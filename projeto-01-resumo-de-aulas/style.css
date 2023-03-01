@@ -1,0 +1,31 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 18px;
+    color: blueviolet;
+}
+
+.marcador {
+    background-color: pink;
+    color: black;
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+}
+
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+button:hover{
+    background-color: aqua;
+}
