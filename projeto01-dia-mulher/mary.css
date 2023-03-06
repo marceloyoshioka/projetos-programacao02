@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Rampart+One&family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: rgb(255, 208, 216);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {  font-size: 50px ;
+    font-family: 'Mynerve', sans-serif;
+    color:black rgb(red, green, blue);
+
+}
+
+h2 {
+    font-size: 150px ;
+    font-family: 'Poppins', sans-serif;
+    color:black rgb(red, green, blue);
+}
+p{
+    color:aliceblue rgb(255, 208, 216);
+
+}
+a {
+    text-decoration: none;
+    color:rgb(22, 2, 41);
+
+}
+button {
+        cursor: pointer;
+        background: rgb(210, 119, 201);
+        padding: 15px;
+        font-size: 16px;
+        border: 0;
+        border-radius: 20px;
+  }
+@media(max-width: 500px){
+    h1{
+        font-size: 100%;
+        width: 50%;
+    
+    }
+    h2{
+        font-size: 100%;
+    }
+    img { 
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    }
+    p {
+        text-align: justify ;
+        width: 90%;
+
+    }
+    button {
+   margin-left: 25%;
+    }
+}
+    
+  

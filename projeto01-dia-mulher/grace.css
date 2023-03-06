@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    background: url(imagens/Grace_Hopper_and_UNIVAC.jpg) repeat;
+    background-color: rgb(238, 186, 238);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 25px;
+}
+ a{
+    text-decoration: none ;
+    color: rgb(228, 228, 228
+    );
+ }
+button {
+    cursor: pointer;
+     background-color: rgb(236, 109, 226);
+     border: 0;
+     padding: 12px 16px;
+    display: inline-block;
+    border-radius: 20px;
+}
+@media(max-width:500px) {
+    h1{
+        font-size: 200%;
+        width: 100%;
+
+    }   
+    h2{
+        font-size: 150%;
+        
+
+    } 
+    p{
+        width: 100%;
+
+    }
+    button{
+        margin-left: 25px;
+    }
+    
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Press+Start+2P&display=swap');
+
+body{
+    background: url(imagens/bkg.jpeg) repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+button {
+    cursor: pointer;
+    background: rgb(255, 32, 69);
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 20px;
+}
+
+@media(max-width: 500px){
+    h1{
+        font-size: 200%;
+        width: 80%;
+    }
+
+    h2{
+        font-size: 150%;
+        text-align: center;
+    }
+
+    img {
+        max-width:300px;
+        display: block;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    button{
+        margin-left: 25%;
+    }
+}

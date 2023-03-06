@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    background: url(imagens/fundo-rosa-gradiente-suave_38782-383.avif) repeat;
+    background-color: rgb(223, 136, 204);
+    font-family: 'Quicksand', sans-serif; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(149, 16, 182);
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 20px;
+
+}
+
+@media(max-width: 500px) {
+    h1{
+        font-size: 80px;
+        width: 30px;
+    }
+}
+h2
+
+h1 {
+    background-color: rgb(241, 241, 241);
+}
+ p {
+    color: rgb(36, 2, 31);
+    background-color:rgb(250, 154, 213);
+ }
+
+ p {
+    font-size: 18px;
+ }
