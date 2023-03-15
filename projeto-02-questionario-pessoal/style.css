@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(181, 181, 75);
+}
+
+.linha-form input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px white solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(1, 1, 90);
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+button:hover{
+    background-color: rgb(92, 92, 207);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+
+
+
+
+
