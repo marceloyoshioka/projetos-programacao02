@@ -1,0 +1,30 @@
+
+img {
+    width: 200px;
+    float: left;
+}
+
+input{
+    border-radius: 5px;
+    width: 120px;   
+}
+
+.invalida{
+    border: 2px rgb(211, 0, 0) solid;
+}
+
+.mensagem-sucesso{
+    background-color: rgb(145, 255, 145);
+    color: rgb(2, 78, 2);
+}
+
+.mensagem-erro{
+    background-color: rgb(255, 187, 187);
+    color: red;
+}
+
+
+
+
+
+
