@@ -13,7 +13,7 @@ botao.addEventListener('click', function(event){
     while(x <= xMax){
        y.push(Math.cos(x))
        labels.push(x)
-       x = x + 0.1
+       x = x + 1
     }
     
     const data = {
